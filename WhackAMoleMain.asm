@@ -5,7 +5,7 @@
 ; PROGRAMMER NOTES/COMMENTS
 ; =========================
  
-	;LED PORTS (A, B, C, D): 		RB4, RC2, RC1, RC0 
+	;LED PORTS (A, B, C, D): 	RB4, RC2, RC1, RC0 
  
 	;SWITCH PORTS (1, 2, 3, 4): 	RA5, RA4, RC4, RC5 
  
@@ -13,7 +13,7 @@
  
 	;Switches are HIGH when unpressed, become LOW when pressed
  
-	;DELAY 				- 	During game, checks for input and updates score.
+	;DELAY 			- 	During game, checks for input and updates score.
 	;DELAY_NOT_RUNNING 	- 	Not during game, checks for input but doesn't update score
 	;DELAY_BASIC		-	For after a button is pressed, ignores all input so multiple inputs are not accidentally recorded for a single instance
 
